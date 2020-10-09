@@ -11,8 +11,8 @@
         <dependent_override>false</dependent_override>
         <display_override>false</display_override>
         <element>cmdb_ci</element>
-        <mandatory>true</mandatory>
-        <mandatory_override>true</mandatory_override>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
         <name>x_0890_devops_work</name>
         <read_only>false</read_only>
         <read_only_override>false</read_only_override>
@@ -22,13 +22,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-09 14:55:16</sys_created_on>
         <sys_id>97be7a7c2ffb10106282d49df699b611</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>cmdb_ci</sys_name>
         <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
         <sys_policy/>
         <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
         <sys_update_name>sys_dictionary_override_97be7a7c2ffb10106282d49df699b611</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-09 14:55:59</sys_updated_on>
+        <sys_updated_on>2020-10-09 22:55:11</sys_updated_on>
     </sys_dictionary_override>
 </record_update>

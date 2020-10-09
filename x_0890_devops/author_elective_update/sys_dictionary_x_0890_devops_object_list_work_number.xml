@@ -114,7 +114,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Work Number</sys_name>
         <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
-        <sys_parent display_value="Objects">c10edef02fbb10106282d49df699b6a0</sys_parent>
+        <sys_parent display_value="">c10edef02fbb10106282d49df699b6a0</sys_parent>
         <sys_policy/>
         <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
         <sys_scope_delete display_value="">1df72e9436fc458086e7eb4be0410040</sys_scope_delete>

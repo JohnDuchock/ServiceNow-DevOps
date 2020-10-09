@@ -3,288 +3,316 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:30</sys_created_on>
-            <sys_id>f03e7a3c2ffb10106282d49df699b6f6</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>00392c812f3350106282d49df699b6f7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:30</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <text>Customer Details</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:30</sys_created_on>
-            <sys_id>383e7a3c2ffb10106282d49df699b6f6</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>48392c812f3350106282d49df699b6f7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:30</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <text>Ticket Details</text>
             <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>f03e7a3c2ffb10106282d49df699b6f6</element>
+            <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>053e7e3c2ffb10106282d49df699b675</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>c439ec812f3350106282d49df699b61c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">10918b602fb310106282d49df699b66d</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>00392c812f3350106282d49df699b6f7</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>8039ec812f3350106282d49df699b61d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>893e7e3c2ffb10106282d49df699b675</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>0839ec812f3350106282d49df699b61d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>reporting_department</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>013e7e3c2ffb10106282d49df699b676</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>8c39ec812f3350106282d49df699b61d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>853e7e3c2ffb10106282d49df699b676</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>0439ec812f3350106282d49df699b61e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>customer_name</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>0d3e7e3c2ffb10106282d49df699b676</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>8839ec812f3350106282d49df699b61e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>813e7e3c2ffb10106282d49df699b677</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>0039ec812f3350106282d49df699b61f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>383e7a3c2ffb10106282d49df699b6f6</element>
-            <position>6</position>
+            <element>48392c812f3350106282d49df699b6f7</element>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>093e7e3c2ffb10106282d49df699b677</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>8439ec812f3350106282d49df699b61f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>8d3e7e3c2ffb10106282d49df699b677</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>0c39ec812f3350106282d49df699b61f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>053e7e3c2ffb10106282d49df699b678</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>8039ec812f3350106282d49df699b620</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>0839ec812f3350106282d49df699b620</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>9</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>893e7e3c2ffb10106282d49df699b678</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>8c39ec812f3350106282d49df699b620</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>cmdb_ci</element>
-            <position>10</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>013e7e3c2ffb10106282d49df699b679</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>0439ec812f3350106282d49df699b621</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>11</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>853e7e3c2ffb10106282d49df699b679</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>8839ec812f3350106282d49df699b621</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>priority</element>
-            <position>12</position>
+            <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>0d3e7e3c2ffb10106282d49df699b679</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>0039ec812f3350106282d49df699b622</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_type</element>
-            <position>13</position>
+            <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>813e7e3c2ffb10106282d49df699b67a</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>8439ec812f3350106282d49df699b622</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>14</position>
+            <position>16</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>093e7e3c2ffb10106282d49df699b67a</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>0c39ec812f3350106282d49df699b622</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
-            <position>15</position>
+            <element>stage</element>
+            <position>17</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>8d3e7e3c2ffb10106282d49df699b67a</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>8039ec812f3350106282d49df699b623</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>16</position>
+            <position>18</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>053e7e3c2ffb10106282d49df699b67b</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>0839ec812f3350106282d49df699b623</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>17</position>
+            <position>19</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>893e7e3c2ffb10106282d49df699b67b</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>8c39ec812f3350106282d49df699b623</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>18</position>
+            <position>20</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 14:51:31</sys_created_on>
-            <sys_id>013e7e3c2ffb10106282d49df699b67c</sys_id>
+            <sys_created_on>2020-10-09 22:38:56</sys_created_on>
+            <sys_id>0439ec812f3350106282d49df699b624</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 14:51:31</sys_updated_on>
+            <sys_updated_on>2020-10-09 22:38:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>QA Journal Activities</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_0890_devops.glide.ui.x_0890_devops_work_activity.fields</name>
+        <read_roles/>
+        <suffix>glide.ui.x_0890_devops_work_activity.fields</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-09 21:07:42</sys_created_on>
+        <sys_id>3d731c012fff10106282d49df699b637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_0890_devops.glide.ui.x_0890_devops_work_activity.fields</sys_name>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_update_name>sys_properties_3d731c012fff10106282d49df699b637</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-09 21:07:42</sys_updated_on>
+        <type>string</type>
+        <value>qa_analyst,qa_status,qa_journal</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=3d731c012fff10106282d49df699b637"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</application>
+        <file_path/>
+        <instance_id>fa726f39db34d050d5c911f848961996</instance_id>
+        <instance_name>dev103744</instance_name>
+        <name>sys_properties_3d731c012fff10106282d49df699b637</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>QA Journal Activities</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>x_0890_devops.glide.ui.x_0890_devops_work_activity.fields</name><read_roles/><suffix>glide.ui.x_0890_devops_work_activity.fields</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-09 21:07:42</sys_created_on><sys_id>3d731c012fff10106282d49df699b637</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_0890_devops.glide.ui.x_0890_devops_work_activity.fields</sys_name><sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package><sys_policy/><sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope><sys_update_name>sys_properties_3d731c012fff10106282d49df699b637</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-09 21:07:42</sys_updated_on><type>string</type><value>qa_analyst,qa_status,qa_journal</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=3d731c012fff10106282d49df699b637"/></record_update>]]></payload>
+        <payload_hash>-571752189</payload_hash>
+        <record_name>x_0890_devops.glide.ui.x_0890_devops_work_activity.fields</record_name>
+        <reverted_from/>
+        <source>00b9c4092fbf10106282d49df699b647</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-09 21:07:44</sys_created_on>
+        <sys_id>88541c012fff10106282d49df699b645</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1750f30e5bd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-09 21:07:44</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>4c541c01fcff101039419779423e0844</update_guid>
+        <update_guid_history>4c541c01fcff101039419779423e0844:-571752189</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-09 21:10:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>25868ee07d8a4622b2feb43f255cbb61</sys_id>
+        <sys_metadata>3d731c012fff10106282d49df699b637</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_0890_devops.glide.ui.x_0890_devops_work_activity.fields</sys_name>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_scope_delete display_value="">1df72e9436fc458086e7eb4be0410040</sys_scope_delete>
+        <sys_update_name>sys_properties_3d731c012fff10106282d49df699b637</sys_update_name>
+        <sys_update_version display_value="sys_properties_3d731c012fff10106282d49df699b637">88541c012fff10106282d49df699b645</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-09 21:10:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

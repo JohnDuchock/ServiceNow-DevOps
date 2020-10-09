@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Work Objects" max_length="40" name="x_0890_devops_work_objects" type="collection">
+        <element label="Object" max_length="40" name="object" type="string"/>
+        <element choice="1" label="Object Type" max_length="40" name="object_type" type="choice">
+            <choice/>
+        </element>
+        <element label="Work" max_length="32" name="work" reference="x_0890_devops_work" type="reference"/>
+        <index name="index">
+            <element name="work"/>
+        </index>
+    </element>
+</database>

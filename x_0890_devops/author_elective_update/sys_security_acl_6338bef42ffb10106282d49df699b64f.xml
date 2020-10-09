@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Allow read for records in x_0890_devops_object_list, for users with role x_0890_devops.devops_user.</description>
+        <name>x_0890_devops_object_list</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-09 14:26:03</sys_created_on>
+        <sys_id>6338bef42ffb10106282d49df699b64f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_0890_devops_object_list</sys_name>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_update_name>sys_security_acl_6338bef42ffb10106282d49df699b64f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-09 14:30:26</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</application>
+        <file_path/>
+        <instance_id>fa726f39db34d050d5c911f848961996</instance_id>
+        <instance_name>dev103744</instance_name>
+        <name>sys_security_acl_6338bef42ffb10106282d49df699b64f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Allow read for records in x_0890_devops_object_list, for users with role x_0890_devops.devops_user.</description><name>x_0890_devops_object_list</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-09 14:26:03</sys_created_on><sys_id>6338bef42ffb10106282d49df699b64f</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_0890_devops_object_list</sys_name><sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package><sys_policy/><sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope><sys_update_name>sys_security_acl_6338bef42ffb10106282d49df699b64f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-09 14:30:26</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>2075497825</payload_hash>
+        <record_name>x_0890_devops_object_list</record_name>
+        <reverted_from/>
+        <source>12fe5ee02f3310106282d49df699b659</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-09 14:30:26</sys_created_on>
+        <sys_id>dc69be382ffb10106282d49df699b610</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1750dc52b190000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-09 14:30:26</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>5869be38f3fb1010c9ce1f4e9e05bf10</update_guid>
+        <update_guid_history>5869be38f3fb1010c9ce1f4e9e05bf10:2075497825,d509ba388cfb1010a1089839df3b20e3:1413448059,c8687ef49ffb1010763610c00da8c2a6:956669275</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-09 22:23:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>220c0f154f8d4adc9f03eae3f8117071</sys_id>
+        <sys_metadata>6338bef42ffb10106282d49df699b64f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_0890_devops_object_list</sys_name>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_parent display_value="">3a1e12342fbb10106282d49df699b6f4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_scope_delete display_value="">1df72e9436fc458086e7eb4be0410040</sys_scope_delete>
+        <sys_update_name>sys_security_acl_6338bef42ffb10106282d49df699b64f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_6338bef42ffb10106282d49df699b64f">dc69be382ffb10106282d49df699b610</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-09 22:23:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Modify QA Notes Label</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+	var tbl = g_form.getTableName();
+
+	if (!g_form.hasField('journal_2'))
+		return;
+
+	var labelText = g_form.getLabelOf('journal_2');
+	if (labelText.substring(labelText.length-1) == ':')
+		labelText = labelText.substring(0, labelText.length -1);
+
+	labelText += ' (' + getMessage('Add notes and save the record.') + ')';
+	g_form.setLabelOf('journal_2', labelText);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-09 22:16:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3d93a08d2fff10106282d49df699b676</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Modify QA Notes Label</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_update_name>sys_script_client_3d93a08d2fff10106282d49df699b676</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-09 22:19:54</sys_updated_on>
+        <table>x_0890_devops_work</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

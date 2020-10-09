@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>short_description</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-09 22:09:24</sys_created_on>
+        <sys_id>17626c0d2fff10106282d49df699b61c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>short_description</sys_name>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_update_name>sys_ui_policy_action_17626c0d2fff10106282d49df699b61c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-09 22:09:36</sys_updated_on>
+        <table>x_0890_devops_work</table>
+        <ui_policy display_value="Read Only Change Fields">c532204d2fff10106282d49df699b6fe</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</application>
+        <file_path/>
+        <instance_id>fa726f39db34d050d5c911f848961996</instance_id>
+        <instance_name>dev103744</instance_name>
+        <name>sys_ui_policy_action_17626c0d2fff10106282d49df699b61c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>short_description</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-09 22:09:24</sys_created_on><sys_id>17626c0d2fff10106282d49df699b61c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>short_description</sys_name><sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package><sys_policy/><sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope><sys_update_name>sys_ui_policy_action_17626c0d2fff10106282d49df699b61c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-09 22:09:36</sys_updated_on><table>x_0890_devops_work</table><ui_policy display_value="Read Only Change Fields">c532204d2fff10106282d49df699b6fe</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1548249046</payload_hash>
+        <record_name>short_description</record_name>
+        <reverted_from/>
+        <source>00b9c4092fbf10106282d49df699b647</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-09 22:09:36</sys_created_on>
+        <sys_id>9a72644d2fff10106282d49df699b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1750f698ab60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-09 22:09:36</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>d272644d2dff10100132f91ce73f2108</update_guid>
+        <update_guid_history>d272644d2dff10100132f91ce73f2108:-1548249046,53626c0d53ff101032142f8bd8d7851e:2130655406</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-09 22:11:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>1819e8db2e7d4b70a2c1c814c157a544</sys_id>
+        <sys_metadata>17626c0d2fff10106282d49df699b61c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>short_description</sys_name>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_parent display_value="Read Only Change Fields">c532204d2fff10106282d49df699b6fe</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_scope_delete display_value="">1df72e9436fc458086e7eb4be0410040</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_17626c0d2fff10106282d49df699b61c</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_17626c0d2fff10106282d49df699b61c">9a72644d2fff10106282d49df699b608</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-09 22:11:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
