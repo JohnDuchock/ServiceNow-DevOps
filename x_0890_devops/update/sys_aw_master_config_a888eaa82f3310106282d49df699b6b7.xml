@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_master_config">
+    <sys_aw_master_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <brand_color/>
+        <compiled_page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</compiled_page>
+        <compiled_page_registry display_value="DevOps Management">a888eaa82f3310106282d49df699b6b8</compiled_page_registry>
+        <description>Used to manage issues and enhancements for our DevOps team</description>
+        <global_search display_value="Default search settings">97a574ea53c0130084acddeeff7b12a6</global_search>
+        <global_search_data display_value="DevOps Management Search Context Config">6488eaa82f3310106282d49df699b6b5</global_search_data>
+        <name>DevOps Management</name>
+        <navigation_type>tab</navigation_type>
+        <notifications_enabled>true</notifications_enabled>
+        <primary_color/>
+        <search_enabled>true</search_enabled>
+        <sys_class_name>sys_aw_master_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 18:38:15</sys_created_on>
+        <sys_id>a888eaa82f3310106282d49df699b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DevOps Management</sys_name>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_update_name>sys_aw_master_config_a888eaa82f3310106282d49df699b6b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 18:38:15</sys_updated_on>
+        <user_preference_controls_enabled>true</user_preference_controls_enabled>
+        <workspace_logo/>
+        <workspace_url>devops_management</workspace_url>
+    </sys_aw_master_config>
+</record_update>

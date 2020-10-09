@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="devops_management" name="devops_management">6588a2202f7310106282d49df699b6ad</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 18:38:19</sys_created_on>
+        <sys_id>6588a2202f7310106282d49df699b6b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6588a2202f7310106282d49df699b6ad</sys_name>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_update_name>sys_embedded_help_role_6588a2202f7310106282d49df699b6b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 18:38:19</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

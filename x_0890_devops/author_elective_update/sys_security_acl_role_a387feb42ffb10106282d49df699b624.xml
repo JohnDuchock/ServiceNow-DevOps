@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-09 14:22:28</sys_created_on>
+        <sys_id>a387feb42ffb10106282d49df699b624</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_0890_devops_work.x_0890_devops.devops_user</sys_name>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_security_acl display_value="x_0890_devops_work">2787feb42ffb10106282d49df699b621</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a387feb42ffb10106282d49df699b624</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-09 14:23:18</sys_updated_on>
+        <sys_user_role display_value="x_0890_devops.devops_user" name="x_0890_devops.devops_user">1f0f9a682f3310106282d49df699b689</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</application>
+        <file_path/>
+        <instance_id>fa726f39db34d050d5c911f848961996</instance_id>
+        <instance_name>dev103744</instance_name>
+        <name>sys_security_acl_role_a387feb42ffb10106282d49df699b624</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-09 14:22:28</sys_created_on><sys_id>a387feb42ffb10106282d49df699b624</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_0890_devops_work.x_0890_devops.devops_user</sys_name><sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package><sys_policy/><sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope><sys_security_acl display_value="x_0890_devops_work">2787feb42ffb10106282d49df699b621</sys_security_acl><sys_update_name>sys_security_acl_role_a387feb42ffb10106282d49df699b624</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-09 14:23:18</sys_updated_on><sys_user_role display_value="x_0890_devops.devops_user" name="x_0890_devops.devops_user">1f0f9a682f3310106282d49df699b689</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1948249425</payload_hash>
+        <record_name>x_0890_devops_work.x_0890_devops.devops_user</record_name>
+        <reverted_from/>
+        <source>12fe5ee02f3310106282d49df699b659</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-09 14:23:18</sys_created_on>
+        <sys_id>e3b7b2f42ffb10106282d49df699b611</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1750dbea0d10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-09 14:23:18</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>6fb7b2f429fb1010cdb6473030e80610</update_guid>
+        <update_guid_history>6fb7b2f429fb1010cdb6473030e80610:-1948249425,a387feb439fb101007be5615e2f2c126:-1121324122</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_0890_devops_work.x_0890_devops.devops_user">dc08b6f42ffb10106282d49df699b61e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-09 14:24:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>261871e6ce6548d69e79a1b808fa7fe9</sys_id>
+        <sys_metadata>a387feb42ffb10106282d49df699b624</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_0890_devops_work.x_0890_devops.devops_user</sys_name>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_scope_delete display_value="">1df72e9436fc458086e7eb4be0410040</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_a387feb42ffb10106282d49df699b624</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_a387feb42ffb10106282d49df699b624">e3b7b2f42ffb10106282d49df699b611</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-09 14:24:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

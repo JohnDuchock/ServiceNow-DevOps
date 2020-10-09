@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Work activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_0890_devops_work_activity.fields</name>
+        <read_roles/>
+        <suffix>x_0890_devops</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 18:49:16</sys_created_on>
+        <sys_id>390be6602f7310106282d49df699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_0890_devops_work_activity.fields</sys_name>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_update_name>sys_properties_390be6602f7310106282d49df699b6fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 18:49:16</sys_updated_on>
+        <type>string</type>
+        <value>number,assigned_to,customer_name,description,development_notes,reporting_department,short_description,status,system_product</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=390be6602f7310106282d49df699b6fc"/>
+</record_update>

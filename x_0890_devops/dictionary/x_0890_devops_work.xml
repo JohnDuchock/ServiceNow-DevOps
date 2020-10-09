@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Work" max_length="40" name="x_0890_devops_work" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Actual Implementation Date" max_length="40" name="actual_implementation_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Change Request" max_length="32" name="change_request" reference="change_request" type="reference"/>
+        <element attributes="encode_utf8=false" label="Customer Name" max_length="32" name="customer_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Identified / Reported" max_length="40" name="date_identified_reported" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Developer" max_length="32" name="developer" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Developer Manager" max_length="32" name="developer_manager" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Planned Implementation Date" max_length="40" name="planned_implementation_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="QA Analyst" max_length="32" name="qa_analyst" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="QA End Date" max_length="40" name="qa_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="QA Notes" max_length="4000" name="qa_notes" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="QA Start Date" max_length="40" name="qa_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="QA Status" max_length="40" name="qa_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pass" sequence="0" value="Pass"/>
+                <element inactive_on_update="false" label="Fail" sequence="1" value="Fail"/>
+                <element inactive_on_update="false" label="Pending" sequence="2" value="Pending"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Reporting Department" max_length="32" name="reporting_department" reference="business_unit" type="reference"/>
+        <element attributes="encode_utf8=false" label="Solutions Analyst" max_length="32" name="solutions_analyst" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Solutions Manager" max_length="32" name="solutions_manager" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Work Type" max_length="40" name="work_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Bug Fix" sequence="0" value="Bug Fix"/>
+                <element inactive_on_update="false" label="Enhancement" sequence="1" value="Enhancement"/>
+                <element inactive_on_update="false" label="New Program" sequence="2" value="New Program"/>
+            </choice>
+        </element>
+    </element>
+</database>

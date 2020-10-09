@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="98caf2782ffb10106282d49df699b67d" sys_domain="global" table="x_0890_devops_work" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-09 14:36:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50caf2782ffb10106282d49df699b67f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_0890_devops_work" name="x_0890_devops_work" sys_domain="global" view="Default view">98caf2782ffb10106282d49df699b67d</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_0890_devops_work" sys_domain="global" view="Default view">ba99f2782ffb10106282d49df699b6ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-09 14:36:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-09 14:36:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54caf2782ffb10106282d49df699b681</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_0890_devops_work" name="x_0890_devops_work" sys_domain="global" view="Default view">98caf2782ffb10106282d49df699b67d</sys_ui_form>
+            <sys_ui_section caption="Work Notes Journal" display_value="Work Notes Journal" name="x_0890_devops_work" sys_domain="global" view="Default view">5ccaf2782ffb10106282d49df699b67f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-09 14:36:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-09 14:37:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>430bb2782ffb10106282d49df699b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_0890_devops_work" name="x_0890_devops_work" sys_domain="global" view="Default view">98caf2782ffb10106282d49df699b67d</sys_ui_form>
+            <sys_ui_section caption="Solutions and Development" display_value="Solutions and Development" name="x_0890_devops_work" sys_domain="global" view="Default view">4b0bb2782ffb10106282d49df699b6cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-09 14:37:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-09 14:40:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3d9b3eb82ffb10106282d49df699b652</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_0890_devops_work" name="x_0890_devops_work" sys_domain="global" view="Default view">98caf2782ffb10106282d49df699b67d</sys_ui_form>
+            <sys_ui_section caption="Dates" display_value="Dates" name="x_0890_devops_work" sys_domain="global" view="Default view">f19b3eb82ffb10106282d49df699b650</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-09 14:40:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-09 14:42:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>572c7ab82ffb10106282d49df699b6dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_0890_devops_work" name="x_0890_devops_work" sys_domain="global" view="Default view">98caf2782ffb10106282d49df699b67d</sys_ui_form>
+            <sys_ui_section caption="Change Request" display_value="Change Request" name="x_0890_devops_work" sys_domain="global" view="Default view">5b2c7ab82ffb10106282d49df699b6da</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-09 14:42:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-09 14:46:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5bfc7ef82ffb10106282d49df699b65b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_0890_devops_work" name="x_0890_devops_work" sys_domain="global" view="Default view">98caf2782ffb10106282d49df699b67d</sys_ui_form>
+            <sys_ui_section caption="Quality Assurance" display_value="Quality Assurance" name="x_0890_devops_work" sys_domain="global" view="Default view">d7fc3af82ffb10106282d49df699b619</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-09 14:46:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_0890_devops_work</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-09 14:36:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98caf2782ffb10106282d49df699b67d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_0890_devops_work</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+            <sys_update_name>sys_ui_form_sections_98caf2782ffb10106282d49df699b67d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-09 14:36:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

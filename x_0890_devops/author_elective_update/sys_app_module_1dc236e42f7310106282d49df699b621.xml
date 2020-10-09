@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="DevOps Management">6ba27ae42f7310106282d49df699b63f</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create New Work</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_0890_devops_work</name>
+        <order>100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 19:23:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1dc236e42f7310106282d49df699b621</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New Work</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_update_name>sys_app_module_1dc236e42f7310106282d49df699b621</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 19:23:50</sys_updated_on>
+        <timeline_page/>
+        <title>Create New Work</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</application>
+        <file_path/>
+        <instance_id>fa726f39db34d050d5c911f848961996</instance_id>
+        <instance_name>dev103744</instance_name>
+        <name>sys_app_module_1dc236e42f7310106282d49df699b621</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="DevOps Management">6ba27ae42f7310106282d49df699b63f</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New Work</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_0890_devops_work</name><order>100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-08 19:23:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1dc236e42f7310106282d49df699b621</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create New Work</sys_name><sys_overrides/><sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package><sys_policy/><sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope><sys_update_name>sys_app_module_1dc236e42f7310106282d49df699b621</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-08 19:23:50</sys_updated_on><timeline_page/><title>Create New Work</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1152960147</payload_hash>
+        <record_name>Create New Work</record_name>
+        <reverted_from/>
+        <source>12fe5ee02f3310106282d49df699b659</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 19:23:50</sys_created_on>
+        <sys_id>18f23ee42f7310106282d49df699b621</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17509ab6ba60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 19:23:50</sys_updated_on>
+        <type>Module</type>
+        <update_guid>50f23ee40673101047df9adbbddf2821</update_guid>
+        <update_guid_history>50f23ee40673101047df9adbbddf2821:1152960147</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New Work">d6573ab42ffb10106282d49df699b658</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-09 14:21:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0e789ef3c88247829965c9d3bdfe20c4</sys_id>
+        <sys_metadata>1dc236e42f7310106282d49df699b621</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New Work</sys_name>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_scope_delete display_value="">1df72e9436fc458086e7eb4be0410040</sys_scope_delete>
+        <sys_update_name>sys_app_module_1dc236e42f7310106282d49df699b621</sys_update_name>
+        <sys_update_version display_value="sys_app_module_1dc236e42f7310106282d49df699b621">18f23ee42f7310106282d49df699b621</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-09 14:21:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
