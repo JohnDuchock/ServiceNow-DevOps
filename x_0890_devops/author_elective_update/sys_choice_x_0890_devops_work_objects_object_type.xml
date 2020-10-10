@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="object_type" table="x_0890_devops_work_objects" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>object_type</element>
+            <name>x_0890_devops_work_objects</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-10 20:22:53</sys_created_on>
+            <sys_id>7ca399992ffb50106282d49df699b6e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>object_type</sys_name>
+            <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+            <sys_update_name>sys_choice_x_0890_devops_work_objects_object_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-10 20:22:53</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>object_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PGM</label>
+            <language>en</language>
+            <name>x_0890_devops_work_objects</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-10 20:22:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0a399992ffb50106282d49df699b6e2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-10 20:23:10</sys_updated_on>
+            <value>PGM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>object_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>QMQRY</label>
+            <language>en</language>
+            <name>x_0890_devops_work_objects</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-10 20:24:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c30419d92ffb50106282d49df699b616</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-10 20:24:45</sys_updated_on>
+            <value>QMQRY</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>object_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FILE</label>
+            <language>en</language>
+            <name>x_0890_devops_work_objects</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-10 20:22:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>38a399992ffb50106282d49df699b6e4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-10 20:23:16</sys_updated_on>
+            <value>FILE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>object_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MODULE</label>
+            <language>en</language>
+            <name>x_0890_devops_work_objects</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-10 20:22:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8a399992ffb50106282d49df699b6e5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-10 20:23:25</sys_updated_on>
+            <value>MODULE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>object_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SRCMBR</label>
+            <language>en</language>
+            <name>x_0890_devops_work_objects</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-10 20:22:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bca399992ffb50106282d49df699b6e6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-10 20:23:36</sys_updated_on>
+            <value>SRCMBR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>object_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BNDDIR</label>
+            <language>en</language>
+            <name>x_0890_devops_work_objects</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-10 20:22:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70a399992ffb50106282d49df699b6e8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-10 20:23:47</sys_updated_on>
+            <value>BNDDIR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>object_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SRVPGM</label>
+            <language>en</language>
+            <name>x_0890_devops_work_objects</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-10 20:22:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34a399992ffb50106282d49df699b6e9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-10 20:23:59</sys_updated_on>
+            <value>SRVPGM</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

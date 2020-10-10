@@ -37,9 +37,24 @@ change.parent = current.sys_id;
 var sysID = change.insert();
 
 
+
 current.change_request = sysID;
 current.stage = 'Ready to Promote';
 var mySysID = current.update();
+
+var wrkID = current.sys_id;
+var chgID = current.change_request;
+var obj = new GlideRecord('x_0890_devops_work_objects');
+obj.addQuery('work',wrkID);
+obj.query();
+while (obj.next()){
+	obj.change_request = chgID;
+	obj.update();
+}
+
+
+
+
 gs.addInfoMessage(gs.getMessage("Change {0} created", change.number));
 action.setRedirectURL(change);
 action.setReturnURL(current);]]></script>
@@ -53,7 +68,7 @@ action.setReturnURL(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>97dd7aac2f7310106282d49df699b62e</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Create Change Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
@@ -61,7 +76,7 @@ action.setReturnURL(current);]]></script>
         <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
         <sys_update_name>sys_ui_action_97dd7aac2f7310106282d49df699b62e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-09 22:50:21</sys_updated_on>
+        <sys_updated_on>2020-10-10 20:18:32</sys_updated_on>
         <table>x_0890_devops_work</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

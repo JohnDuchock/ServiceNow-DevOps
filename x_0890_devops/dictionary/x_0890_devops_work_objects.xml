@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Work Objects" max_length="40" name="x_0890_devops_work_objects" type="collection">
+    <element label="Work Objects" max_length="40" name="x_0890_devops_work_objects" sizeclass="0" type="collection">
+        <element attributes="encode_utf8=false" label="Change Request" max_length="32" name="change_request" reference="change_request" type="reference"/>
         <element label="Object" max_length="40" name="object" type="string"/>
         <element choice="1" label="Object Type" max_length="40" name="object_type" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="PGM" sequence="0" value="PGM"/>
+                <element inactive_on_update="false" label="QMQRY" sequence="0" value="QMQRY"/>
+                <element inactive_on_update="false" label="FILE" sequence="1" value="FILE"/>
+                <element inactive_on_update="false" label="MODULE" sequence="2" value="MODULE"/>
+                <element inactive_on_update="false" label="SRCMBR" sequence="3" value="SRCMBR"/>
+                <element inactive_on_update="false" label="BNDDIR" sequence="4" value="BNDDIR"/>
+                <element inactive_on_update="false" label="SRVPGM" sequence="5" value="SRVPGM"/>
+            </choice>
         </element>
         <element label="Work" max_length="32" name="work" reference="x_0890_devops_work" type="reference"/>
         <index name="index">
             <element name="work"/>
+        </index>
+        <index name="index2">
+            <element name="change_request"/>
         </index>
     </element>
 </database>

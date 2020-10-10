@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=false" audit="true" extends="task" label="Work" max_length="40" name="x_0890_devops_work" type="collection">
+    <element attributes="live_feed=false" audit="true" extends="task" label="Work" max_length="40" name="x_0890_devops_work" sizeclass="1" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Actual Implementation Date" max_length="40" name="actual_implementation_date" type="glide_date"/>
         <element attributes="encode_utf8=false" label="Change Request" max_length="32" name="change_request" reference="change_request" type="reference"/>
         <element attributes="encode_utf8=false" label="Customer Name" mandatory="true" max_length="32" name="customer_name" reference="sys_user" type="reference"/>

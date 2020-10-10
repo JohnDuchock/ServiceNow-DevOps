@@ -3,25 +3,25 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 22:25:33</sys_created_on>
-            <sys_id>bf16a0012f3350106282d49df699b6c4</sys_id>
+            <sys_created_on>2020-10-10 20:26:17</sys_created_on>
+            <sys_id>a26499d92ffb50106282d49df699b63e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 22:25:33</sys_updated_on>
-            <text>Add all objects to be updated</text>
+            <sys_updated_on>2020-10-10 20:26:17</sys_updated_on>
+            <text>List all objects that will be updated in this scope of work.</text>
             <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>bf16a0012f3350106282d49df699b6c4</element>
+            <element>a26499d92ffb50106282d49df699b63e</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 22:25:33</sys_created_on>
-            <sys_id>b316a0012f3350106282d49df699b6c6</sys_id>
+            <sys_created_on>2020-10-10 20:26:17</sys_created_on>
+            <sys_id>aa6499d92ffb50106282d49df699b642</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Objects" display_value="Objects" name="x_0890_devops_work" sys_domain="global" view="Default view">05152c8d2fff10106282d49df699b617</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 22:25:33</sys_updated_on>
+            <sys_updated_on>2020-10-10 20:26:17</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -29,13 +29,13 @@
             <element>12M.x_0890_devops_work.x_0890_devops_work_objects.work</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-10-09 22:25:33</sys_created_on>
-            <sys_id>3b16a0012f3350106282d49df699b6c6</sys_id>
+            <sys_created_on>2020-10-10 20:26:17</sys_created_on>
+            <sys_id>266499d92ffb50106282d49df699b643</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Objects" display_value="Objects" name="x_0890_devops_work" sys_domain="global" view="Default view">05152c8d2fff10106282d49df699b617</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-10-09 22:25:33</sys_updated_on>
+            <sys_updated_on>2020-10-10 20:26:17</sys_updated_on>
             <sys_user/>
             <type>list</type>
         </sys_ui_element>

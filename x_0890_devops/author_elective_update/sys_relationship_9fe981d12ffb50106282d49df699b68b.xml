@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>change_request</basic_apply_to>
+        <basic_query_from>x_0890_devops_work_objects</basic_query_from>
+        <insert_callback/>
+        <name>objects</name>
+        <query_from/>
+        <query_with><![CDATA[current.addQuery('work', parent.object);
+]]></query_with>
+        <reference_field>work</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-10 19:42:35</sys_created_on>
+        <sys_id>9fe981d12ffb50106282d49df699b68b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>objects</sys_name>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_update_name>sys_relationship_9fe981d12ffb50106282d49df699b68b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-10 19:42:35</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=9fe981d12ffb50106282d49df699b68b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</application>
+        <file_path/>
+        <instance_id>fa726f39db34d050d5c911f848961996</instance_id>
+        <instance_name>dev103744</instance_name>
+        <name>sys_relationship_9fe981d12ffb50106282d49df699b68b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;change_request&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;x_0890_devops_work_objects&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;objects&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[current.addQuery('work', parent.object);
+]]&gt;&lt;/query_with&gt;&lt;reference_field&gt;work&lt;/reference_field&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-10 19:42:35&lt;/sys_created_on&gt;&lt;sys_id&gt;9fe981d12ffb50106282d49df699b68b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;objects&lt;/sys_name&gt;&lt;sys_package display_value="DevOps Management" source="x_0890_devops"&gt;96fe5ee02f3310106282d49df699b657&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="DevOps Management"&gt;96fe5ee02f3310106282d49df699b657&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_9fe981d12ffb50106282d49df699b68b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-10 19:42:35&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9fe981d12ffb50106282d49df699b68b"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2011303970</payload_hash>
+        <record_name>objects</record_name>
+        <reverted_from/>
+        <source>ca2595012f7350106282d49df699b628</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-10 19:42:35</sys_created_on>
+        <sys_id>e26a05d12ffb50106282d49df699b611</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17514094ee30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-10 19:42:35</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>2e6a05d180fb50108f4a6a4785ba7c10</update_guid>
+        <update_guid_history>2e6a05d180fb50108f4a6a4785ba7c10:-2011303970</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-10 19:43:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>0fdc1360a8164e60aa15c55120e9d840</sys_id>
+        <sys_metadata>9fe981d12ffb50106282d49df699b68b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>objects</sys_name>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_parent display_value="Change Request">6e9dd7dbd8f210100c1d056eb83723ec</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_scope_delete display_value="">1df72e9436fc458086e7eb4be0410040</sys_scope_delete>
+        <sys_update_name>sys_relationship_9fe981d12ffb50106282d49df699b68b</sys_update_name>
+        <sys_update_version display_value="sys_relationship_9fe981d12ffb50106282d49df699b68b">e26a05d12ffb50106282d49df699b611</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-10 19:43:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
