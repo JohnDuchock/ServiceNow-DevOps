@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>create_change</action_name>
+        <action_name>submit_qa</action_name>
         <active>true</active>
         <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.change_request.nil() &amp;&amp; current.stage == 'Ready to Promote'</condition>
+        <condition>current.stage == 'Peer Review'</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -25,14 +25,14 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>Create Change Request</name>
-        <onclick>generateChange()</onclick>
+        <name>Submit for Quality Assurance</name>
+        <onclick>generateQA()</onclick>
         <order>100</order>
-        <script><![CDATA[function generateChange(){
-	var answer=confirm("Are you sure you wish to create a Change Request for this body of work?");
+        <script><![CDATA[function generateQA(){
+	var answer=confirm("Are you sure you wish to submit this development for Quality Assurance Review?");
 	if (answer==true)
 	{
-		gsftSubmit(null, g_form.getFormElement(), 'create_change'); //MUST call the 'Action name' set in this UI Action
+		gsftSubmit(null, g_form.getFormElement(), 'submit_qa'); //MUST call the 'Action name' set in this UI Action
 	}
 	else
 	{
@@ -42,54 +42,48 @@
 
 if(typeof window == 'undefined')
 {
+	var gr = new GlideRecord('x_0890_devops_quality_assurance_tasks');
+	gr.initialize();
+	gr.newRecord();
+	gr.short_description = 'Quality Assurance task for '+current.number;
+	gr.parent = current.sys_id;
+	gr.priority = current.priority;
+	gr.assignment_group = 'b6a58111db8707001e5836ee9d9619e5'; //QA Group sys_id
+	gr.description = 'Quality Assurance Task for '+current.number+'\n\nDevelopment Description:\n'+current.description;
 
-	var change = new GlideRecord("change_request");
-	change.short_description = current.short_description;
-	change.description = current.description;
-	change.cmdb_ci = current.system_product;
-	change.sys_domain = current.sys_domain;
-	change.parent = current.sys_id;
-	var sysID = change.insert();
+	var newID = gr.insert();
 
+	var gdt = new GlideDateTime().getDisplayValue();
+	current.work_notes = 'Submitted for Quality Assurance on '+gdt+' by '+gs.getUserDisplayName();
+	current.stage = 'QA';
+	current.update();
 
-	current.change_request = sysID;
-	current.stage = 'Ready to Promote';
-	var mySysID = current.update();
+	gs.addInfoMessage(gs.getMessage("Quality Assurance Task {0} has been created and assigned to the QA team.", gr.number));
 
-	var wrkID = current.sys_id;
-	var chgID = current.change_request;
-	var obj = new GlideRecord('x_0890_devops_work_objects');
-	obj.addQuery('work',wrkID);
-	obj.query();
-	while (obj.next()){
-		obj.change_request = chgID;
-		obj.update();
-	}
-
-
-	gs.addInfoMessage(gs.getMessage("Change {0} created", change.number));
-	action.setRedirectURL(change);
+	action.setRedirectURL(current);
 	action.setReturnURL(current);
-}]]></script>
+}
+
+]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-10-08 20:14:01</sys_created_on>
+        <sys_created_on>2020-10-12 12:34:00</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>97dd7aac2f7310106282d49df699b62e</sys_id>
-        <sys_mod_count>19</sys_mod_count>
-        <sys_name>Create Change Request</sys_name>
+        <sys_id>808bb9792fff90106282d49df699b6b7</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Submit for Quality Assurance</sys_name>
         <sys_overrides/>
         <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
         <sys_policy/>
         <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
-        <sys_update_name>sys_ui_action_97dd7aac2f7310106282d49df699b62e</sys_update_name>
+        <sys_update_name>sys_ui_action_808bb9792fff90106282d49df699b6b7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-12 13:06:01</sys_updated_on>
+        <sys_updated_on>2020-10-12 13:30:05</sys_updated_on>
         <table>x_0890_devops_work</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Work Objects" max_length="40" name="x_0890_devops_work_objects" sizeclass="0" type="collection">
+    <element label="Work Objects" max_length="40" name="x_0890_devops_work_objects" sizeclass="3" type="collection">
         <element attributes="encode_utf8=false" label="Change Request" max_length="32" name="change_request" reference="change_request" type="reference"/>
         <element label="Object" max_length="40" name="object" type="string"/>
         <element choice="1" label="Object Type" max_length="40" name="object_type" type="choice">
