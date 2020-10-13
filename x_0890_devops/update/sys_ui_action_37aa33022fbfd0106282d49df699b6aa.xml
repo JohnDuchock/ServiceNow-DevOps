@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>atm</action_name>
+        <action_name>complete_peer</action_name>
         <active>true</active>
-        <client>false</client>
+        <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.stage == 'Awaiting Assignment'</condition>
+        <condition/>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -25,25 +25,45 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>Assign to Me</name>
-        <onclick/>
+        <name>Complete Peer Review</name>
+        <onclick>completePeer()</onclick>
         <order>100</order>
-        <script><![CDATA[var gr = new GlideRecord('sys_user_grmember');
-	gr.addQuery('user',gs.getUserID());
-	gr.addQuery('group.type','1cb8ab9bff500200158bffffffffff62');
-	gr.query();
-	while(gr.next())
+        <script><![CDATA[function completePeer(){
+	var answer=confirm("Click OK to complete the peer review and forward the work back to the original developer.");
+	if (answer==true)
 	{
-		current.assignment_group = gr.group;
+		gsftSubmit(null, g_form.getFormElement(), 'complete_peer'); //MUST call the 'Action name' set in this UI Action
 	}
+	else
+	{
+		return false;
+	}
+}
 
-current.work_notes = 'Assigned to user '+gs.getUserDisplayName();
-current.assigned_to = gs.getUserID();
-current.stage = 'Assigned';
-current.update();
+if(typeof window == 'undefined')
+{
+	var gr = new GlideRecord('x_0890_devops_work');
+	gr.addQuery('sys_id',current.parent);
+	gr.query();
+	while (gr.next()){
+		var gdt = new GlideDateTime().getDisplayValue();
+		gr.work_notes = 'Peer Review completed at '+gdt+' by '+gs.getUserDisplayName();
+		gr.stage = 'Peer Review Complete';
+		gr.update();
+		gs.addInfoMessage(gs.getMessage("Peer Review has been completed on Work Record {0}.", gr.number));
+	}
+	
+	var gdt2 = new GlideDateTime().getDisplayValue();
+	current.work_notes = 'Peer Review completed at '+gdt2+' by '+gs.getUserDisplayName();
+	current.state = 3;
+	current.active = 'false';
+	current.assigned_to = gs.getUserID();
+	current.update();
 
-gs.addInfoMessage('Assignment Group and Assigned To Values updated.');
-action.setRedirectURL(current);
+	action.setRedirectURL(current);
+	action.setReturnURL(current);
+}
+
 
 ]]></script>
         <show_insert>true</show_insert>
@@ -52,20 +72,20 @@ action.setRedirectURL(current);
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-10-09 22:31:25</sys_created_on>
+        <sys_created_on>2020-10-13 16:30:19</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>5986a8012f3350106282d49df699b680</sys_id>
-        <sys_mod_count>20</sys_mod_count>
-        <sys_name>Assign to Me</sys_name>
+        <sys_id>37aa33022fbfd0106282d49df699b6aa</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Complete Peer Review</sys_name>
         <sys_overrides/>
         <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
         <sys_policy/>
         <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
-        <sys_update_name>sys_ui_action_5986a8012f3350106282d49df699b680</sys_update_name>
+        <sys_update_name>sys_ui_action_37aa33022fbfd0106282d49df699b6aa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-13 17:14:35</sys_updated_on>
-        <table>x_0890_devops_work</table>
+        <sys_updated_on>2020-10-13 17:17:02</sys_updated_on>
+        <table>x_0890_devops_peer_review_task</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>

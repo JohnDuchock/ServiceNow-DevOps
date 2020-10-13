@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.active == 'true'</condition>
+        <condition>current.active == true</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -50,14 +50,17 @@ if(typeof window == 'undefined')
 		gr.work_notes = 'Quality Assurance Passed at '+gdt+' by '+gs.getUserDisplayName();
 		gr.journal_2 = 'Quality Assurance Passed at '+gdt+' by '+gs.getUserDisplayName();
 		gr.stage = 'Ready to Promote';
+		gr.qa_end_date = gdt;
 		gr.update();
 		gs.addInfoMessage(gs.getMessage("Work Record {0} has been updated as QA PASS.", gr.number));
 	}
-	
+
 	var gdt2 = new GlideDateTime().getDisplayValue();
 	current.work_notes = 'Quality Assurance Passed at '+gdt2+' by '+gs.getUserDisplayName();
 	current.state = 90;
 	current.active = 'false';
+	current.assigned_to = gs.getUserID();
+
 	current.update();
 
 	action.setRedirectURL(current);
@@ -76,7 +79,7 @@ if(typeof window == 'undefined')
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ece7c2f12f33d0106282d49df699b697</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>QA Pass</sys_name>
         <sys_overrides/>
         <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
@@ -84,7 +87,7 @@ if(typeof window == 'undefined')
         <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
         <sys_update_name>sys_ui_action_ece7c2f12f33d0106282d49df699b697</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-12 13:59:05</sys_updated_on>
+        <sys_updated_on>2020-10-13 17:05:29</sys_updated_on>
         <table>x_0890_devops_quality_assurance_tasks</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

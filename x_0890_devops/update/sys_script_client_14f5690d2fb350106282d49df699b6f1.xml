@@ -14,6 +14,7 @@
 
 	changeButtonColor('complete_peer', '#11631c');	
 	changeButtonColor('save_task', '#11631c');	
+	changeButtonColor('atm','#79db93');
 	
 	function changeButtonColor(buttonID, backgroundColor) {
 		try{
@@ -25,6 +26,9 @@
 		}catch(e){}
 	}
 
+	g_form.setReadOnly('number',true);
+	g_form.setReadOnly('parent',true);
+	g_form.setReadOnly('state',true);
 
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -33,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>14f5690d2fb350106282d49df699b6f1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Color Buttons on Peer</sys_name>
         <sys_overrides/>
         <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
@@ -41,7 +45,7 @@
         <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
         <sys_update_name>sys_script_client_14f5690d2fb350106282d49df699b6f1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-10 03:08:24</sys_updated_on>
+        <sys_updated_on>2020-10-13 17:19:53</sys_updated_on>
         <table>x_0890_devops_peer_review_task</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
