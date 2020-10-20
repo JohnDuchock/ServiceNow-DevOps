@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="DevOps Management">b61e12342fbb10106282d49df699b6c9</application>
+        <filter/>
+        <name>Peer Review Tasks</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_0890_devops.peer_review_task_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-10 01:54:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>37f5dd412fb350106282d49df699b613</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Peer Review Tasks</sys_name>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_update_name>sys_ui_module_37f5dd412fb350106282d49df699b613</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-10 01:54:42</sys_updated_on>
+        <table>x_0890_devops_peer_review_task</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</application>
+        <file_path/>
+        <instance_id>fa726f39db34d050d5c911f848961996</instance_id>
+        <instance_name>dev103744</instance_name>
+        <name>sys_ui_module_37f5dd412fb350106282d49df699b613</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="DevOps Management">b61e12342fbb10106282d49df699b6c9</application><filter/><name>Peer Review Tasks</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_0890_devops.peer_review_task_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-10 01:54:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>37f5dd412fb350106282d49df699b613</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Peer Review Tasks</sys_name><sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package><sys_policy/><sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope><sys_update_name>sys_ui_module_37f5dd412fb350106282d49df699b613</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-10 01:54:42</sys_updated_on><table>x_0890_devops_peer_review_task</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>394699851</payload_hash>
+        <record_name>Peer Review Tasks</record_name>
+        <reverted_from/>
+        <source>ca2595012f7350106282d49df699b628</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-10 01:54:43</sys_created_on>
+        <sys_id>3ff5dd412fb350106282d49df699b615</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1751037a2d10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-10 01:54:43</sys_updated_on>
+        <type>Module</type>
+        <update_guid>77f5dd417ab350105cdd51b10fbab915</update_guid>
+        <update_guid_history>77f5dd417ab350105cdd51b10fbab915:394699851</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-13 17:42:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>b5550da4b7b34280812eac08c9db9000</sys_id>
+        <sys_metadata>37f5dd412fb350106282d49df699b613</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Peer Review Tasks</sys_name>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_scope_delete display_value="">1df72e9436fc458086e7eb4be0410040</sys_scope_delete>
+        <sys_update_name>sys_ui_module_37f5dd412fb350106282d49df699b613</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_37f5dd412fb350106282d49df699b613">3ff5dd412fb350106282d49df699b615</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-13 17:42:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

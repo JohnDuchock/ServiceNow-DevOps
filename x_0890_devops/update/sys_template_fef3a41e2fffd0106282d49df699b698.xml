@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <link_element/>
+        <name>Work Record Population</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-13 19:29:45</sys_created_on>
+        <sys_id>fef3a41e2fffd0106282d49df699b698</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Work Record Population</sys_name>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_update_name>sys_template_fef3a41e2fffd0106282d49df699b698</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-13 19:29:45</sys_updated_on>
+        <table>x_0890_devops_work</table>
+        <template>assignment_group=cfcbad03d711110050f5edcb9e61038f^customer_name=67484bb0eb32010045e1a5115206fee6^description=This effort will create a new program that will provide value to the business users.  This is urgently needed due to the financial impact to the business.^priority=3^reporting_department=9206c204870221003ff35d88e3e3ec81^short_description=New program needed for finances^state=1^work_type=New Program^EQ</template>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <view/>
+    </sys_template>
+</record_update>

@@ -6,7 +6,7 @@
         <attributes>encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Change Request</column_label>
@@ -33,7 +33,7 @@
         <name>x_0890_devops_work_objects</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference display_value="" name="change_request">change_request</reference>
         <reference_cascade_rule/>
@@ -49,14 +49,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-10 19:46:22</sys_created_on>
         <sys_id>394bcd152ffb50106282d49df699b6f5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Change Request</sys_name>
         <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
         <sys_policy/>
         <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
         <sys_update_name>sys_dictionary_x_0890_devops_work_objects_change_request</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-10-10 19:46:22</sys_updated_on>
+        <sys_updated_on>2020-10-13 19:36:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
