@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="UAT Tasks" max_length="40" name="x_0890_devops_uat_tasks" sizeclass="0" type="collection"/>
+</database>
