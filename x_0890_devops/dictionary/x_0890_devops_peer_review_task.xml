@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Peer Review Task" max_length="40" name="x_0890_devops_peer_review_task" sizeclass="2" type="collection"/>
+    <element audit="true" extends="task" label="Peer Review Task" max_length="40" name="x_0890_devops_peer_review_task" sizeclass="4" type="collection"/>
 </database>

@@ -17,7 +17,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-09 23:03:59</sys_updated_on>
         <table>x_0890_devops_work</table>
-        <ui_policy display_value="Read Only Number and Stage">78bda4c52f3350106282d49df699b62d</ui_policy>
+        <ui_policy display_value="Read Only Always">78bda4c52f3350106282d49df699b62d</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>

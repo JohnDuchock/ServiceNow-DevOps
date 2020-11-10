@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=false" audit="true" extends="task" label="Work" max_length="40" name="x_0890_devops_work" sizeclass="2" type="collection">
+    <element attributes="live_feed=false" audit="true" extends="task" label="Development Requests" max_length="40" name="x_0890_devops_work" sizeclass="2" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Actual Implementation Date" max_length="40" name="actual_implementation_date" type="glide_date"/>
         <element attributes="encode_utf8=false" label="Change Request" max_length="32" name="change_request" reference="change_request" type="reference"/>
         <element attributes="encode_utf8=false" label="Customer Name" mandatory="true" max_length="32" name="customer_name" reference="sys_user" type="reference"/>
@@ -7,6 +7,7 @@
         <element attributes="encode_utf8=false" label="Developer" max_length="32" name="developer" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="Developer Manager" max_length="32" name="developer_manager" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Development Started" max_length="40" name="development_started" type="glide_date"/>
+        <element label="Development Objects Added" max_length="40" name="dev_objects_added" type="boolean"/>
         <element label="QA Journal" max_length="4000" name="journal_2" type="journal"/>
         <element attributes="edge_encryption_enabled=true" label="Planned Implementation Date" max_length="40" name="planned_implementation_date" type="glide_date"/>
         <element attributes="encode_utf8=false" label="QA Analyst" max_length="32" name="qa_analyst" reference="sys_user" type="reference"/>

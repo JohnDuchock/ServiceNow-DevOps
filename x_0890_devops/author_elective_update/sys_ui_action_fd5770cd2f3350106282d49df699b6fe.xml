@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>submit_peer</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.stage == 'In Progress'</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Submit for Peer Review</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[generatePeer();
+
+function generatePeer() {
+	var gr = new GlideRecord('x_0890_devops_peer_review_task');
+	gr.initialize();
+	gr.newRecord();
+	gr.short_description = 'Peer Review task for '+current.number;
+	gr.parent = current.sys_id;
+	gr.priority = current.priority;
+	//gr.assignment_group = 'b6a58111db8707001e5836ee9d9619e5';
+	gr.assignment_group = current.assignment_group;
+	gr.description = 'Peer Review Task for '+current.number+'\n\nDevelopment Description:\n'+current.description;
+
+	var newID = gr.insert();
+
+	current.stage = 'Peer Review';
+	var gdt = new GlideDateTime().getDisplayValue();
+	current.work_notes = 'Submitted for Peer Review at '+gdt;
+	current.submitted_for_peer_review = gdt;
+	current.update();
+
+	gs.addInfoMessage(gs.getMessage("Peer Review Task {0} has been created.", gr.number));
+
+	action.setRedirectURL(current);
+	action.setReturnURL(current);
+
+}
+]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-09 23:44:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fd5770cd2f3350106282d49df699b6fe</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Submit for Peer Review</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_update_name>sys_ui_action_fd5770cd2f3350106282d49df699b6fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-13 14:31:54</sys_updated_on>
+        <table>x_0890_devops_work</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</application>
+        <file_path/>
+        <instance_id>fa726f39db34d050d5c911f848961996</instance_id>
+        <instance_name>dev103744</instance_name>
+        <name>sys_ui_action_fd5770cd2f3350106282d49df699b6fe</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;submit_peer&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;current.stage == 'In Progress'&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;Submit for Peer Review&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[generatePeer();
+
+function generatePeer() {
+	var gr = new GlideRecord('x_0890_devops_peer_review_task');
+	gr.initialize();
+	gr.newRecord();
+	gr.short_description = 'Peer Review task for '+current.number;
+	gr.parent = current.sys_id;
+	gr.priority = current.priority;
+	//gr.assignment_group = 'b6a58111db8707001e5836ee9d9619e5';
+	gr.assignment_group = current.assignment_group;
+	gr.description = 'Peer Review Task for '+current.number+'\n\nDevelopment Description:\n'+current.description;
+
+	var newID = gr.insert();
+
+	current.stage = 'Peer Review';
+	var gdt = new GlideDateTime().getDisplayValue();
+	current.work_notes = 'Submitted for Peer Review at '+gdt;
+	current.submitted_for_peer_review = gdt;
+	current.update();
+
+	gs.addInfoMessage(gs.getMessage("Peer Review Task {0} has been created.", gr.number));
+
+	action.setRedirectURL(current);
+	action.setReturnURL(current);
+
+}
+]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-09 23:44:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;fd5770cd2f3350106282d49df699b6fe&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;Submit for Peer Review&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="DevOps Management" source="x_0890_devops"&gt;96fe5ee02f3310106282d49df699b657&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="DevOps Management"&gt;96fe5ee02f3310106282d49df699b657&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_fd5770cd2f3350106282d49df699b6fe&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-13 14:31:54&lt;/sys_updated_on&gt;&lt;table&gt;x_0890_devops_work&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-271560864</payload_hash>
+        <record_name>Submit for Peer Review</record_name>
+        <reverted_from display_value="sys_ui_action_fd5770cd2f3350106282d49df699b6fe">7c102f8e2f3fd0106282d49df699b6f8</reverted_from>
+        <source>ca2595012f7350106282d49df699b628</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-02 17:52:24</sys_created_on>
+        <sys_id>e8cdc3602fd0a0106282d49df699b6ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1758a16b0850000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-02 17:52:24</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>eccdc3606fd0a010dc68c0801db63aaa</update_guid>
+        <update_guid_history>eccdc3606fd0a010dc68c0801db63aaa:-271560864,a2d68b2c3a90a010caf0bfbdb401ecba:-1775058195,6276072cbe90a01013accbcb9bfdf2ea:55618581,9b36072c2690a010e106a237b22b42e1:968797126,29954fe8c490a01020db4f49ce881b98:500860977,e82583e8bd90a010f4f01698913aaef8:-271560864,b5e407e80690a010595a51f3a52436c2:1518204580,c3948ba8a690a010e21d38baec9cfb12:1397514460,17d30ba8c790a0101ea1f1d95965c4a9:86689023,e7b303a87c90a01062e4be53b8d8e448:1337590951,4a5343a8c490a010d8c4cf92ef1595f3:579827912,e533cf689690a010aa55a588871be547:1322068876,b3f2cb283c90a010b4b00c4f5fe62fef:-1946255684,91d2c7689b90a01030b935d10868f4b5:1588604484,8e8207687f90a010b24485b0fdfc64ed:-1460879372,009147288290a010c93eade814f1be98:1443771555,ee01c328af90a010a488219e186bdbba:-1943773297,8fc0cfe4fb90a0107c108ee8562f78f1:-1661249276,f8ef7aa46090a010c9933b1387a1a82d:1540981747,4baff6a46890a010159b63105a84c51f:1121127282,e17ef264ce90a0101707201c48c54d3c:-1304524940,47f3d2e47b10a01050ded406c038c1c2:-2092212582,b4102f8e703fd0103af6fa9c16b234f8:-271560864,5d5f938ebb3fd01056fa1382e95b1f3b:-1405306302,951f5f4e743fd01088d282f4208f90eb:-271560864,c82a290162f350109036a25cac59b264:1211601636,631c9585d5b35010c926008669dfd126:-646514095,53abdd457bb350104ec933c82a474332:307288930,c42b1945e0b350107f79133b8a5c7fe7:1653886305,13f999058db35010562f0f71e28e9777:971327192,f0c9110579b35010441904ef7d5dd62a:150309675,8109ddc1b7b3501004ef25772bda5b5e:203368412,aa68dd8113b350107cf054aac8d6a97a:1974920212,05a830014b7350100b9ea7f84a05e137:-600646703,a718b0cd09335010844ae7b6853ec6e7:-1576269807</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-02 17:58:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>b11d4793220d4a108cfc5d35e3258e19</sys_id>
+        <sys_metadata>fd5770cd2f3350106282d49df699b6fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit for Peer Review</sys_name>
+        <sys_package display_value="DevOps Management" source="x_0890_devops">96fe5ee02f3310106282d49df699b657</sys_package>
+        <sys_parent display_value="Development Requests">92777eb42ffb10106282d49df699b68c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DevOps Management">96fe5ee02f3310106282d49df699b657</sys_scope>
+        <sys_scope_delete display_value="">1df72e9436fc458086e7eb4be0410040</sys_scope_delete>
+        <sys_update_name>sys_ui_action_fd5770cd2f3350106282d49df699b6fe</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_fd5770cd2f3350106282d49df699b6fe">e8cdc3602fd0a0106282d49df699b6ac</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-02 17:58:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
